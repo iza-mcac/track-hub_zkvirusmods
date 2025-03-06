@@ -1,4 +1,4 @@
-hub my_hub
+hub track-hub_zkvirusmods
 shortLabel My Track Hub
 longLabel My RNA Modifications Tracks
 genomesFile genomes.txt
