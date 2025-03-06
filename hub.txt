@@ -1,0 +1,6 @@
+hub my_hub
+shortLabel My Track Hub
+longLabel My RNA Modifications Tracks
+genomesFile genomes.txt
+email iza.mamede@gmail.com
+
