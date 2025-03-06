@@ -1,5 +1,5 @@
 track ctrl_inosine
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/ctrl1_allmods_pileup_hac_inosine.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/ctrl1_allmods_pileup_hac_inosine.bw
 shortLabel ctrl1 inosine
 longLabel ctrl1 inosine modifications
 type bigWig
@@ -7,7 +7,7 @@ visibility full
 color 224,223,213
 
 track infected_inosine
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/Infected1_allmods_pileup_hac_inosine.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/Infected1_allmods_pileup_hac_inosine.bw
 shortLabel infected inosine
 longLabel infected inosine modifications
 type bigWig
@@ -15,7 +15,7 @@ visibility full
 color 77,80,97
 
 track ctrl_m5c
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/ctrl1_allmods_pileup_hac_m5c.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/ctrl1_allmods_pileup_hac_m5c.bw
 shortLabel control m5c
 longLabel control m5c modifications
 type bigWig
@@ -23,7 +23,7 @@ visibility full
 color 239,98,108
 
 track infected_m5c
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/Infected1_allmods_pileup_hac_m5c.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/Infected1_allmods_pileup_hac_m5c.bw
 shortLabel infected m5c
 longLabel infected m5c modifications
 type bigWig
@@ -31,7 +31,7 @@ visibility full
 color 28,49,68
 
 track ctrl_m6a
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/ctrl1_allmods_pileup_hac_m6a.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/ctrl1_allmods_pileup_hac_m6a.bw
 shortLabel control m6a
 longLabel control m6a modifications
 type bigWig
@@ -39,7 +39,7 @@ visibility full
 color 42,80,121
 
 track infected_m6a
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/Infected1_allmods_pileup_hac_m6a.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/Infected1_allmods_pileup_hac_m6a.bw
 shortLabel infected m6a
 longLabel infected m6a modifications
 type bigWig
@@ -47,7 +47,7 @@ visibility full
 color 255,0,53
 
 track ctrl_pseU
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/ctrl1_allmods_pileup_hac_pseU.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/ctrl1_allmods_pileup_hac_pseU.bw
 shortLabel control pseU
 longLabel control pseU modifications
 type bigWig
@@ -55,7 +55,7 @@ visibility full
 color 169,138,76
 
 track infected_pseU
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/main/Infected1_allmods_pileup_hac_pseU.bw
+bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/Infected1_allmods_pileup_hac_pseU.bw
 shortLabel infected pseU
 longLabel infected pseU modifications
 type bigWig
