@@ -1,63 +1,195 @@
-track ctrl_inosine
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/control_inosine.bw
-shortLabel ctrl1 inosine
-longLabel ctrl1 inosine modifications
+track scn2aComposite
+compositeTrack on
+shortLabel SCN2A CPM
+longLabel SCN2A ±500kb CPM bigWigs (strand-specific)
 type bigWig
 visibility full
-color 224,223,213
+group user
+subGroup1 strand Strand +Plus=plus -Minus=minus
+sortOrder strand=+
+track scn2a_plus
+parent scn2aComposite
+shortLabel SCN2A +
+type bigWig
+autoScale on
+maxHeightPixels 64:32:8
+subGroups strand=plus
+aggregate transparentOverlay
+visibility full
+    track ASD16_1_70_plus
+    parent scn2a_plus
+    shortLabel ASD16-1_70 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD16-1_70.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track infected_inosine
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/infected_inosine.bw
-shortLabel infected inosine
-longLabel infected inosine modifications
-type bigWig
-visibility full
-color 77,80,97
+    track ASD16_3_72_plus
+    parent scn2a_plus
+    shortLabel ASD16-3_72 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD16-3_72.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track ctrl_m5c
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/control_m5c.bw
-shortLabel control m5c
-longLabel control m5c modifications
-type bigWig
-visibility full
-color 239,98,108
+    track ASD17_1_73_plus
+    parent scn2a_plus
+    shortLabel ASD17-1_73 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD17-1_73.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track infected_m5c
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/infected_m5c.bw
-shortLabel infected m5c
-longLabel infected m5c modifications
-type bigWig
-visibility full
-color 28,49,68
+    track ASD17_2_74_plus
+    parent scn2a_plus
+    shortLabel ASD17-2_74 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD17-2_74.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track ctrl_m6a
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/control_m6a.bw
-shortLabel control m6a
-longLabel control m6a modifications
-type bigWig
-visibility full
-color 42,80,121
+    track EA1_2_77_plus
+    parent scn2a_plus
+    shortLabel EA1-2_77 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EA1-2_77.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track infected_m6a
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/infected_m6a.bw
-shortLabel infected m6a
-longLabel infected m6a modifications
-type bigWig
-visibility full
-color 255,0,53
+    track EA1_3_78_plus
+    parent scn2a_plus
+    shortLabel EA1-3_78 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EA1-3_78.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track ctrl_pseU
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/control_pseU.bw
-shortLabel control pseU
-longLabel control pseU modifications
-type bigWig
-visibility full
-color 169,138,76
+    track EB3_1_64_plus
+    parent scn2a_plus
+    shortLabel EB3-1_64 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EB3-1_64.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
 
-track infected_pseU
-bigDataUrl https://github.com/iza-mcac/track-hub_zkvirusmods/raw/refs/heads/main/hg38/infected_pseU.bw
-shortLabel infected pseU
-longLabel infected pseU modifications
+    track EB3_2_65_plus
+    parent scn2a_plus
+    shortLabel EB3-2_65 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EB3-2_65.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track EB4_3_63_plus
+    parent scn2a_plus
+    shortLabel EB4-3_63 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EB4-3_63.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track IM5_2_68_plus
+    parent scn2a_plus
+    shortLabel IM5-2_68 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/IM5-2_68.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track IM5_3_69_plus
+    parent scn2a_plus
+    shortLabel IM5-3_69 +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/IM5-3_69.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track Undetermined_from_Transcriptoma_Bruno_Neuronio_Idor_plus
+    parent scn2a_plus
+    shortLabel Undetermined_from_Transcriptoma_Bruno_Neuronio_Idor +
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/Undetermined_from_Transcriptoma_Bruno_Neuronio_Idor.SCN2A_pm500kb.plus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+track scn2a_minus
+parent scn2aComposite
+shortLabel SCN2A -
 type bigWig
+autoScale on
+maxHeightPixels 64:32:8
+subGroups strand=minus
+aggregate transparentOverlay
 visibility full
-color 120,2,26
+    track ASD16_1_70_minus
+    parent scn2a_minus
+    shortLabel ASD16-1_70 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD16-1_70.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track ASD16_3_72_minus
+    parent scn2a_minus
+    shortLabel ASD16-3_72 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD16-3_72.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track ASD17_1_73_minus
+    parent scn2a_minus
+    shortLabel ASD17-1_73 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD17-1_73.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track ASD17_2_74_minus
+    parent scn2a_minus
+    shortLabel ASD17-2_74 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/ASD17-2_74.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track EA1_2_77_minus
+    parent scn2a_minus
+    shortLabel EA1-2_77 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EA1-2_77.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track EA1_3_78_minus
+    parent scn2a_minus
+    shortLabel EA1-3_78 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EA1-3_78.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track EB3_1_64_minus
+    parent scn2a_minus
+    shortLabel EB3-1_64 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EB3-1_64.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track EB3_2_65_minus
+    parent scn2a_minus
+    shortLabel EB3-2_65 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EB3-2_65.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track EB4_3_63_minus
+    parent scn2a_minus
+    shortLabel EB4-3_63 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/EB4-3_63.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track IM5_2_68_minus
+    parent scn2a_minus
+    shortLabel IM5-2_68 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/IM5-2_68.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track IM5_3_69_minus
+    parent scn2a_minus
+    shortLabel IM5-3_69 -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/IM5-3_69.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+
+    track Undetermined_from_Transcriptoma_Bruno_Neuronio_Idor_minus
+    parent scn2a_minus
+    shortLabel Undetermined_from_Transcriptoma_Bruno_Neuronio_Idor -
+    bigDataUrl https://raw.githubusercontent.com/iza-mcac/track-hub_zkvirusmods/main/hg38/scn2a/Undetermined_from_Transcriptoma_Bruno_Neuronio_Idor.SCN2A_pm500kb.minus.CPM.ucsc.bw
+    type bigWig
+    visibility full
+

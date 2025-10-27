@@ -1,6 +1,5 @@
-hub track-hub_zkvirusmods
-shortLabel My Track Hub
-longLabel My RNA Modifications Tracks
-genomesFile genomes.txt
-email iza.mamede@gmail.com
-
+hub scn2a_pm500kb
+shortLabel SCN2A ±500kb CPM
+longLabel Strand-specific CPM bigWig tracks around SCN2A (±500 kb)
+genomesFile hg38/genomes.txt
+email your.email@domain
